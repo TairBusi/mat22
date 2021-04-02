@@ -12,7 +12,7 @@ def countword() ->int:
         if word1 == revword(readfile[i-1]):
             count=count+1
             i=i+1
-    print(count)
+    return print(count)
 
     
         
